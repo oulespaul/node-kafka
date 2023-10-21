@@ -1,0 +1,47 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Kafka-Tutorial",
+    "dateExported": "2023-10-21T07:07:50.562Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "f37bc2c7-ae72-48ba-ac4a-37ebcdff8a78",
+            "colId": "00b634fa-9ed4-4eb5-9bf5-68cb6b4c7bef",
+            "containerId": "",
+            "name": "Create product",
+            "url": "http://localhost:8000/api/create-product",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-10-20T09:06:45.801Z",
+            "modified": "2023-10-20T09:06:54.865Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Product 2\",\n  \"amount\": 10\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "9af54840-5490-45d7-96eb-05d9a59ee59a",
+            "colId": "00b634fa-9ed4-4eb5-9bf5-68cb6b4c7bef",
+            "containerId": "",
+            "name": "Place order",
+            "url": "http://localhost:8000/api/place-order",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-10-20T09:10:56.546Z",
+            "modified": "2023-10-21T07:07:41.113Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"userId\": \"U20cc584a27d563eac10c3737b61e5f85\",\n  \"productId\": 2\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
